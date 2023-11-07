@@ -9,7 +9,6 @@ let array2 = [100, 200, 300, 400];
  * 30 200
  * 40 100 
  */
-let array3 = [];
 for (let i = 0; i < array1.length; i++){
     document.write(array1[i] + " " + array2[array2.length - 1 - i] + "<br>");
 }
